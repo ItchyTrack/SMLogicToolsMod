@@ -1,0 +1,25 @@
+{
+   "toolList" : [
+      {
+         "name" : "Handheld Multitool",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Textures/Char_liftremote/char_liftremote.rend",
+         "previewRotation" : [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+         "script" : {
+            "class" : "Multitool",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/Multitool.lua"
+         },
+         "uuid" : "c0baf6f4-c260-46a9-9c60-3725e5ced259"
+      },
+      {
+         "name" : "Autotool",
+         "script" : {
+            "class" : "Autotool",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/Autotool.lua"
+         },
+         "autoTool" : true,
+         "uuid" : "de9491c9-1f63-4430-88f0-4e1c68333ff6"
+      }
+   ]
+}

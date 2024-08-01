@@ -1,0 +1,50 @@
+{
+   "053a24de-cf05-4938-9044-71c614fef78f" : {
+      "description" : "#ffffffTool Extra#909292\nPlace this down if you want the Tool messages to show up in chat.",
+      "title" : "Chat Log Block"
+   },
+   "09caafe0-d7a3-47bf-9ffe-778213105586" : {
+      "description" : "#ffffffTool#909292\nPlacing this part on your creation enables you to copy/paste logic gate connections.\n\nCopy from: #EE7BF0light-pink#909292 logic gate\nPaste to: #EEAF5Clight-orange#909292 logic gates\nApply Copy-Paste: Press E on this block\n\nDisclaimer: This will only create new connections, any preexisting connections will be stacked on top!",
+      "title" : "Connection Copy/Paste"
+   },
+   "0eb09225-11c7-4178-b87a-9fdf7343f472" : {
+      "description" : "#ffffffLogic Part#909292\n#A0EA00Interfaces:#909292\\nAddress - #E2DB13Yellow#909292 [up to 30 - #EEEEEEInput#909292]\\nReset - #D02525Red#909292 [1 - #EEEEEEInput#909292] (optional)\\n\\nWrite - #2CE6E6Cyan#909292 [1 - #EEEEEEInput#909292]\\nInput - #0A3EE2Blue#909292 [up to 30 - #EEEEEEInput#909292]\\n\\nRead - #CF11D2Pink#909292 [1 - #EEEEEEInput#909292]\\nOutput - #7514EDPurple#909292 [up to 30 - #EEEEEEOutput#909292]",
+      "title" : "RAM Block"
+   },
+   "23f93461-dfb5-47c5-b7a8-d3508e56b013" : {
+      "description" : "#ffffffLogic Part#909292\nTo create an #A0EA00interface#909292, connect multiple of these together. The color of the interface determines its purpose.\\n\\n#EEEEEEInput:#909292\\n[#A0EA00...#909292]->[#A0EA002#909292]->[#A0EA001#909292]->[Special Block]\\n\\n#EEEEEEOutput:#909292\\n[#A0EA00...#909292]<-[#A0EA002#909292]<-[#A0EA001#909292]<-[Special Block]\\n\\nThe LSB is closest to the special block!",
+      "title" : "Interface Block"
+   },
+   "33ef02f6-22bc-4d85-8760-b78a68daaf4b" : {
+      "description" : "#ffffffTool#909292\nPlacing this part on your creation enables you to quickly make parallel connections.\n\nOn/Off: Press E on this block\nFrom: dark-grey (1st) & black (rest)\nTo: light-grey (1st) & white (rest)\n#4A4A4A█#333333█████#909292 -> #7F7F7F█#EEEEEE█████#909292\nConnect dark-grey to light-grey! The rest connects automatically.",
+      "title" : "Parallel Connections"
+   },
+   "931dfeb6-5286-464d-a965-d310889df33c" : {
+      "description" : "#ffffffTool#909292\n#D02525WARNING! If used wrong, this may make many, unintended connections. Use with caution, save your creations!#909292\n\nPlace this 2x on a creation, connect them together, then paint them in the colors you want to connect stuff with.\n\nFrom - To:\n[#CCCCCCcolor1#909292] -> [#CCCCCCcolor2#909292]\nApply: Press E on this block",
+      "title" : "Connection Maker (by Color)"
+   },
+   "a1180139-1b10-4e6a-8d6f-6aaf7b1785bc" : {
+      "description" : "#ffffffLogic Part#909292\nThis is a Timer with customizable speed.\n\nPress U or Crouch + U to change speed.\n\n(This block won't show when it's activated, still WIP)",
+      "title" : "Quick Timer"
+   },
+   "bc336a10-675a-4942-94ce-e83ecb4b501a" : {
+      "description" : "#ffffffLogic Part#909292\nThis is a Logic Gate with customizable speed.\n\nPress U or Crouch + U to change speed.",
+      "title" : "Quick Logic Gate"
+   },
+   "c0baf6f4-c260-46a9-9c60-3725e5ced259" : {
+      "description" : "#ffffffHandheld Tool#909292\n\nTools (Toggle with Q):\n-Logic Converter (#12AD41Quick#909292 <-> #DF7F00Vanilla#909292)\n-Advanced Tool Functions (Configurable)",
+      "title" : "Logic Multitool"
+   },
+   "e9c429c8-7473-40e3-9f70-4781d1510a42" : {
+      "description" : "#ffffffLogic Part Extra#909292\nThis button is very useful for analyzing #12AD41Quick Logic#909292 circuits.\n\nReduce the simulation speed to \"Single Step\" and press this button to continue to the next tick. You will see exactly what happens each individual tick.\n\nPress U or Crouch + U to change (simulation) speed.",
+      "title" : "Single Step Button"
+   },
+   "8f23b687-b62e-4b64-9323-e834111eb35d" : {
+      "description" : "#ffffffTool Extra#909292\nConnect these to the \"Connection Maker (by Color)\" to change its functionality. You can make it filter by logic state or by relative position. These can be connected in series to stack the functions.",
+      "title" : "Color Tool Peripheral"
+   },
+   "f52c3e45-8d5f-4c34-b9ff-0cef2516e0a4" : {
+      "description" : "#ffffffTool#909292\n#D02525WARNING! If used wrong, this may make many, unintended connections. Use with caution, save your creations!#909292\n\nPlace this 2x on a creation, connect them together, then paint them in the colors you want to copy/paste between.\n\nCopy from - Paste to:\n[#CCCCCCcolor1#909292] -> [#CCCCCCcolor2#909292]\nApply: Press E on this block",
+      "title" : "Connection Copy/Paste (by Color)"
+   }
+}
